@@ -1,0 +1,92 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Delta-t" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="584" y="208"/>
+	</widget>
+	<widget field="Ramping Max_Delta" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="851" y="373"/>
+	</widget>
+	<widget field="Turning Amount" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="594" y="109"/>
+	</widget>
+	<widget field="Straight Driving Range" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="818" y="312"/>
+	</widget>
+	<widget field="Straight Driving Tuning" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="817" y="290"/>
+	</widget>
+	<widget field="Arm Out Roller Speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1029" y="45"/>
+	</widget>
+	<widget field="Blind Shot Roller Delay" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="593" y="58"/>
+	</widget>
+	<widget field="Auton Slow Drive Time" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="590" y="313"/>
+	</widget>
+	<widget field="Auton Fast Drive Time" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="591" y="291"/>
+		<height>20</height>
+	</widget>
+	<widget field="Arm Out Switch 2" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1035" y="23"/>
+	</widget>
+	<widget field="Arm Out Switch 1" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="926" y="23"/>
+	</widget>
+	<widget field="Shooter Up" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1068" y="137"/>
+		<width>124</width>
+		<height>62</height>
+	</widget>
+	<widget field="Shooter Down" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="904" y="137"/>
+		<width>137</width>
+		<height>62</height>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.VideoStreamViewerExtension">
+		<location x="5" y="7"/>
+		<width>569</width>
+		<height>453</height>
+	</static-widget>
+	<widget field="Gyro Heading" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="592" y="378"/>
+	</widget>
+	<widget field="Ball Sensor Average Voltage" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="590" y="169"/>
+	</widget>
+	<widget field="ShiftToHighGear" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="587" y="419"/>
+	</widget>
+	<widget field="Drivetrain Fudge Factor" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="592" y="402"/>
+	</widget>
+	<widget field="Shoot" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1076" y="98"/>
+	</widget>
+	<widget field="Tension Launcher" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="905" y="98"/>
+	</widget>
+	<widget field="ReleaseLatch" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="950" y="240"/>
+	</widget>
+	<widget field="MoveArmOut" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="884" y="39"/>
+	</widget>
+	<widget field="IS_RECT" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="587" y="8"/>
+	</widget>
+	<widget field="Autonomous Routine" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="1091" y="251"/>
+	</widget>
+	<widget field="WinchLauncherDown" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="877" y="206"/>
+	</widget>
+	<widget field="UnwindWinch" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1074" y="205"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+	<hidden field="Output"/>
+</xml>
